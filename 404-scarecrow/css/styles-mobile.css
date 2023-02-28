@@ -1,35 +1,36 @@
 html, body {
     margin: 0;
-    padding: 0;
 }
 
 h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 24px;
     font-weight: 700;
-    margin: 40px 0 200px 77px;
+    margin: 20px 0 64px 24px;
 }
 
 .bad-news {
     font-family: 'Space Mono', monospace;
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 700;
     text-align: left;
-    margin: 0 0 36px 0;
+    margin: 0 0 30px 0;
+    width: 360px;
 }
 
 .page-unavailable {
     font-family: 'Space Mono', monospace;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
-    width: 400px;
+    width: 328px;
     margin: 0 0 64px 0;
 }
 
 .scarecrow {
-    width: 540px;
-    margin-left: 77px;
+    width: 286px;
+    margin: 0 auto 77px;
+    display: block;
 }
 
 a { 
@@ -47,13 +48,12 @@ footer {
     font-weight: 700;
     text-align: center;
     color: #BDBDBD;
-    margin: 280px 0 24px;
+    margin: 100px 0 24px;
 }
 
 .container {
     text-align: center;
-    margin: 150px 0;
-    height: 465px;
+    width: 350px;
 }
 
 .home-button {
@@ -64,12 +64,9 @@ footer {
 }
 
 .right-container {
-    display: inline-block;
-    width: 590px;
-    height: 465px;
-    margin: 0 100px;
-    position: relative;
-    top: -14px;
+    display: block;
+    width: 360px;
+    margin: 0 auto;
 }
 
 #username {
