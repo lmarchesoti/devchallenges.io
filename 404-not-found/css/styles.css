@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 0 200px 77px;
+}
+
+.bad-news {
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 36px 0;
+}
+
+.page-unavailable {
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    width: 400px;
+    margin: 0 0 64px 0;
+}
+
+.scarecrow {
+    width: 540px;
+    margin-left: 77px;
+}
+
+a { 
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #BDBDBD;
+    margin: 280px 0 24px;
+}
+
+.container {
+    text-align: center;
+    margin: 150px 0;
+    height: 465px;
+}
+
+.home-button {
+    background-color: #333333;
+    width: 216px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.right-container {
+    display: inline-block;
+    width: 590px;
+    height: 465px;
+    margin: 0 100px;
+    position: relative;
+    top: -14px;
+}
+
+#username {
+    text-decoration: underline;
+}
