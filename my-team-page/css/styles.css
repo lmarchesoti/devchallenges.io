@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.top-container {
+    padding: 0;
+    vertical-align: top;
+    margin: 110px auto 75px;
+    display: table;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+    display: table-cell;
+    vertical-align: top;
+    width: 493px;
+    margin: 0;
+}
+
+.who-we-are {
+    display: table-cell;
+    width: 433px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.team-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.members-col-1, .members-col-2, .members-col-3 {
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.members-col-2 {
+    position: relative;
+    top: 110px;
+}
+
+img {
+    width: 235px;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.member-role {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-align: left;
+    /* display: inline-block; */
+    float: right;
+    margin: 0;
+    margin-right: 40px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-align: center;
+    margin: 225px auto 24px;
+}
+
+.username {
+    text-decoration: underline;
+}
