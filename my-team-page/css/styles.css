@@ -23,6 +23,8 @@ h1 {
     font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.3;
+    letter-spacing: -0.045em;
     display: table-cell;
     vertical-align: top;
     width: 493px;
@@ -39,6 +41,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    line-height: 1.5;
     text-transform: uppercase;
 }
 
@@ -46,17 +49,18 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.5;
 }
 
-.members-col-1, .members-col-2, .members-col-3 {
+.crew-member {
     display: inline-block;
     width: 300px;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 7px;
     padding: 0;
 }
 
-.members-col-2 {
+#saba-cabrera, #griff-richards {
     position: relative;
     top: 110px;
 }
@@ -70,12 +74,14 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .member-role {
     font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.3;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     text-align: left;
@@ -87,13 +93,15 @@ h3 {
 
 footer {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 14px;
+    line-height: 1.2;
     color: #A9A9A9;
     text-align: center;
     margin: 225px auto 24px;
 }
 
 .username {
+    font-weight: 700;
     text-decoration: underline;
 }
