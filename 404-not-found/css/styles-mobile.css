@@ -1,74 +1,88 @@
-html, body {
-    margin: 0;
-}
-
-h1 {
-    font-family: 'Inconsolata', monospace;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 20px 0 64px 24px;
-}
-
-.bad-news {
-    font-family: 'Space Mono', monospace;
-    font-size: 48px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0 0 30px 0;
-    width: 360px;
-}
-
-.page-unavailable {
-    font-family: 'Space Mono', monospace;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
-    width: 328px;
-    margin: 0 0 64px 0;
-}
-
-.scarecrow {
-    width: 286px;
-    margin: 0 auto 77px;
-    display: block;
-}
-
-a { 
-    font-family: 'Space Mono', monospace;
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-    display: inline;
-}
-
-footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    color: #BDBDBD;
-    margin: 100px 0 24px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    text-align: center;
-    width: 350px;
+  width: 375px;
+  height: 949px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25.18px;
+  letter-spacing: -0.08em;
+  margin: 20px 0 64px 24px;
+}
+
+.bad-news {
+  font-family: "Space Mono", monospace;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0 0 30px 0;
+  width: 350px;
+  height: 142px;
+  line-height: 71.09px;
+  letter-spacing: -0.035em;
+}
+
+.page-unavailable {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 26.66px;
+  letter-spacing: -0.035em;
+  width: 328px;
+  height: 81px;
+  margin: 0 0 64px 0;
+}
+
+.scarecrow {
+  width: 286px;
+  margin: 0 auto 60px;
+  display: block;
+}
+
+a {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  display: inline;
+  line-height: 20.73px;
+  letter-spacing: -0.035em;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #bdbdbd;
+  line-height: 17.07px;
+  margin: 100px 0 24px;
 }
 
 .home-button {
-    background-color: #333333;
-    width: 216px;
-    text-align: center;
-    padding: 24px 0;
+  background-color: #333333;
+  width: 216px;
+  height: 69px;
+  text-align: center;
+  padding: 24px 0;
 }
 
 .right-container {
-    display: block;
-    width: 360px;
-    margin: 0 auto;
+  width: 360px;
+  margin: 0 auto;
 }
 
 #username {
-    text-decoration: underline;
+  text-decoration: underline;
 }
